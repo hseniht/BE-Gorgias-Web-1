@@ -1,0 +1,32 @@
+.logotext {
+  font-size: 34px;
+  color: white;
+  margin-top: 24%;
+}
+
+
+.customH1 {
+    font-size: 34px;
+    color: white;
+    font-family: "Lato", Arial, Tahoma, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.CardStory {
+
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+
+/* For width 768px and larger: */
+@media only screen and (min-width: 768px) {
+  .CardStory {
+
+      background-position: center;
+      background-size: cover;
+      height: 326px;
+  }
+}

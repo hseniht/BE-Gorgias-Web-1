@@ -1,0 +1,16 @@
+
+.col-md-6-yasser {
+  width: 100%;
+  float: left;
+  height: 78vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+
+div..col-md-6-yasser > img.yasser {
+max-height: 100%;
+}
