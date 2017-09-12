@@ -14,3 +14,115 @@
 div..col-md-6-yasser > img.yasser {
 max-height: 100%;
 }
+
+div.round-box img.scale-with-grid {
+  max-width: none !important
+}
+
+
+
+.tks.shop_slider .shop_slider_ul li {
+    float: left;
+
+    list-style: none;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.tks .one.column {
+    width: 100%;
+}
+
+
+.tks .column, .columns {
+	float: left;
+	margin: 0 0% 40px;
+}
+
+
+/*test */
+.containertk {
+  margin: 40px auto;
+  max-width: 700px;
+}
+
+img.tk {
+  max-width: 100%;
+}
+
+img.tk.fit {
+  border: 5px solid maroon;
+  /*width: 10em;*/
+  width: 250px;
+  /*height: 10em !important;*/
+  height: 250px !important;
+  -o-object-fit: contain;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+img.tk.fitSlider {
+  /*border: 5px solid blue;*/
+  /*width: 10em;*/
+  width: 100%;
+  /*height: 10em !important;*/
+  height: 250px !important;
+  -o-object-fit: contain;
+  object-fit: cover;
+  display: block;
+  /*margin: 10px auto 10px auto;*/
+}
+
+img.tk.fitCards {
+  /*border: 5px solid blue;*/
+  /*width: 10em;*/
+  width: 100%;
+  /*height: 10em !important;*/
+  height: 200px !important;
+  -o-object-fit: contain;
+  object-fit: cover;
+  display: block;
+  /*margin: 10px auto 10px auto;*/
+}
+
+@media only screen and (min-width: 768px) {
+  img.tk.fitCards {
+    /*border: 5px solid blue;*/
+    /*width: 10em;*/
+    width: 100%;
+    /*height: 10em !important;*/
+    height: 350px !important;
+    -o-object-fit: contain;
+    object-fit: cover;
+    display: block;
+    /*margin: 10px auto 10px auto;*/
+  }
+}
+
+img.tk.fitThumbs {
+  /*border: 5px solid blue;*/
+  /*width: 10em;*/
+  width: 100%;
+  /*height: 10em !important;*/
+  height: 350px !important;
+  -o-object-fit: contain;
+  object-fit: cover;
+  display: block;
+  /*margin: 10px auto 10px auto;*/
+}
+
+@media only screen and (min-width: 768px) {
+  img.tk.fitThumbs {
+    /*border: 5px solid blue;*/
+    /*width: 10em;*/
+    width: 100%;
+    /*height: 10em !important;*/
+    height: 350px !important;
+    -o-object-fit: contain;
+    object-fit: cover;
+    display: block;
+    /*margin: 10px auto 10px auto;*/
+  }
+}
