@@ -126,3 +126,21 @@ img.tk.fitThumbs {
     /*margin: 10px auto 10px auto;*/
   }
 }
+
+.tkArrowsRight {
+  display: block !important;
+    top: 50% !important;
+    position: absolute !important;
+    width: 45px !important;
+    right: 0px !important;
+    z-index: 1 !important;
+}
+
+.tkArrowsLeft {
+  display: block !important;
+    top: 50% !important;
+    position: absolute !important;
+    width: 45px !important;
+    left: 0px !important;
+    z-index: 1 !important;
+}
