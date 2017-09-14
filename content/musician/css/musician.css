@@ -1278,7 +1278,8 @@ a.mfn-link-6:before {
 	}
 }
 #Header .top_bar_left, .header-classic #Top_bar, .header-plain #Top_bar, .header-stack #Top_bar, .header-split #Top_bar, .header-fixed #Top_bar, .header-below #Top_bar, #Header_creative, #Top_bar #menu, .sticky-tb-color #Top_bar.is-sticky {
-	background-color: #101417;
+	/*background-color: #101417;*/
+	background-color: rgba(16, 20, 23, 0.69);
 }
 #Top_bar .wpml-languages a.active, #Top_bar .wpml-languages ul.wpml-lang-dropdown {
 	background-color: #101417;

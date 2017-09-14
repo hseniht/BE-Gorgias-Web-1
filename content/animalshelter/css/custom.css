@@ -147,6 +147,19 @@ img.tk.fitThumbs {
   }
 }
 
+@media only screen and (max-width: 767px) {
+	/* Blog Teaser */
+
+	.grid .post-item, .masonry .post-item {
+		width: 49.9%!important;
+    height: 220px!important;
+		margin: 0 1% 20px!important;
+	}
+}
+
+
+
+
 .tk-Arrows-Right {
   display: block !important;
     top: 50% !important;
