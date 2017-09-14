@@ -75,6 +75,12 @@ img.tk.fitSlider {
   /*margin: 10px auto 10px auto;*/
 }
 
+@media only screen and (min-width: 768px) {
+    .items_group.clearfix.tk-minify{
+      zoom: 0.7!important;
+    }
+}
+
 img.tk.fitCards {
   /*border: 5px solid blue;*/
   /*width: 10em;*/
@@ -93,7 +99,7 @@ img.tk.fitCards {
     /*width: 10em;*/
     width: 100%;
     /*height: 10em !important;*/
-    height: 350px !important;
+    height: 250px !important;
     -o-object-fit: contain;
     object-fit: cover;
     display: block;
@@ -113,7 +119,21 @@ img.tk.fitThumbs {
   /*margin: 10px auto 10px auto;*/
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (width: 768px) {
+  img.tk.fitThumbs {
+    /*border: 5px solid blue;*/
+    /*width: 10em;*/
+    width: 100%;
+    /*height: 10em !important;*/
+    height: 250px !important;
+    -o-object-fit: contain;
+    object-fit: cover;
+    display: block;
+    /*margin: 10px auto 10px auto;*/
+  }
+}
+
+@media only screen and (min-width: 769px) {
   img.tk.fitThumbs {
     /*border: 5px solid blue;*/
     /*width: 10em;*/
@@ -127,7 +147,7 @@ img.tk.fitThumbs {
   }
 }
 
-.tkArrowsRight {
+.tk-Arrows-Right {
   display: block !important;
     top: 50% !important;
     position: absolute !important;
@@ -136,11 +156,20 @@ img.tk.fitThumbs {
     z-index: 1 !important;
 }
 
-.tkArrowsLeft {
+.tk-Arrows-Left {
   display: block !important;
     top: 50% !important;
     position: absolute !important;
     width: 45px !important;
     left: 0px !important;
     z-index: 1 !important;
+}
+
+/*Section Masonry Grid*/
+.author-date.hidden{
+  display: none;
+}
+
+.entry-title.larger{
+  font-size: 36px;
 }

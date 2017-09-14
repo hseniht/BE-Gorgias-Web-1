@@ -12213,7 +12213,7 @@ dl > dt,.dark dl > dd,.dark .article_box .desc_wrapper p,.dark a.icon_bar,.dark 
 
 			/* Photo wrapper */
 			.masonry.tiles .post-item:not(.no-img) .post-photo-wrapper { line-height: 0; position: relative; }
-			.masonry.tiles .post-item:not(.no-img) .post-photo-wrapper:after { content: ""; position: absolute; z-index: 2; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.2); opacity: 0; transition: all 0.6s ease-out; }
+			.masonry.tiles .post-item:not(.no-img) .post-photo-wrapper:after { content: ""; position: absolute; z-index: 2; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.5); opacity: 0; transition: all 0.6s ease-out; }
 			.masonry.tiles .post-item:not(.no-img):hover .post-photo-wrapper:after { opacity: 1; }
 
 			/* Posts */
@@ -12228,7 +12228,7 @@ dl > dt,.dark dl > dd,.dark .article_box .desc_wrapper p,.dark a.icon_bar,.dark 
 
 			/* Line */
 			.masonry.tiles .post-item .post-desc-wrapper .post-desc .post-title:after { content: ""; display: block; height: 3px; margin-top: 20px; width: 0; transition: all 0.4s ease-out; }
-			.masonry.tiles .post-item:hover .post-desc-wrapper .post-desc .post-title:after { width: 40%; }
+			.masonry.tiles .post-item:hover .post-desc-wrapper .post-desc .post-title:after { width: 80%; }
 
 			/* Desc wrapper animation */
 			.masonry.tiles .post-item .post-desc-wrapper { transition: all 0.4s ease-out; }

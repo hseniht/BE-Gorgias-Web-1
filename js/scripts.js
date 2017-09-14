@@ -1996,7 +1996,7 @@ function mfnSliderShop() {
 				width: 380,
 				visible: {
 					min: 1,
-					max: 4
+					max: 5
 				}
 			},
 			scroll: {
@@ -2098,7 +2098,7 @@ window.mfn_sliders = {
 	portfolio: 0,
 	shop: 0,
 	slider: 6000,
-	testimonials: 7000
+	testimonials: 3000
 };
 jQuery(document).ready(function($) {
 	jQuery('.masonry.isotope,.isotope').isotope();
