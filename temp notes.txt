@@ -1,0 +1,35 @@
+
+
+contnet - 29
+
+zeus - 20
+
+footer - 28
+
+
+
+header-wrapper - 30p (29)
+
+31
+
+32 
+
+
+29
+
+
+responsiveLevels: [1240, 1024, 778, 480],
+
+
+
+working responsive image 
+
+
+height: auto;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 100%;
+    /* background-color: red; */
+    background-image: url(https://c1.staticflickr.com/1/373/20087838980_ee014bbcc6_b.jpg);
+    background-position: center center;
+    background-size: cover;

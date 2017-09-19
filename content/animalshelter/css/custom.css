@@ -54,9 +54,9 @@ img.tk {
 img.tk.fit {
   /*border: 5px solid maroon;*/
   /*width: 10em;*/
-  width: 250px;
+  width: 300px;
   /*height: 10em !important;*/
-  height: 250px !important;
+  height: 350px !important;
   -o-object-fit: contain;
   object-fit: cover;
   display: block;
@@ -69,7 +69,7 @@ img.tk.fit {
     /*width: 10em;*/
     width: 300px;
     /*height: 10em !important;*/
-    height: 300px !important;
+    height: 400px !important;
     -o-object-fit: contain;
     object-fit: cover;
     display: block;
@@ -91,9 +91,29 @@ img.tk.fitSlider {
 
 /*================Section card story*===============================*/
 
+.tkList .desc {
+  background-color: white;
+  /*padding: 10px 20px;*/
+  line-height: 1.6;
+  padding: 20px 35px 20px 20px;
+  height: 100px;
+}
+
+.tkList .desc h4 {
+  margin-bottom: 5px;
+  font-weight: bolder;
+  color: #ff0080;
+}
+
+.tkParaFooter {
+  position: absolute;
+  bottom: 0;
+  margin: 0px 0 5px;
+}
+
 @media only screen and (max-width:767px) {
       .tkList {
-        width:250px!important;
+        width:300px!important;
         padding: 0 15px;
       }
 }

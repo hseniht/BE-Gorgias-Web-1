@@ -1993,15 +1993,16 @@ function mfnSliderShop() {
 			circular: true,
 			responsive: true,
 			items: {
-				width: 380,
+				width: 600,
 				visible: {
 					min: 1,
 					max: 5
 				}
 			},
 			scroll: {
-				duration: 500,
-				easing: 'swing'
+				duration: 700,
+				// easing: 'swing'
+        easing:'linear'
 			},
 			prev: {
 				button: function() {

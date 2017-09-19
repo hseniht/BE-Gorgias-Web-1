@@ -3277,7 +3277,7 @@ ul.clients li .client_wrapper,ul.clients li .client_wrapper img{-webkit-transiti
 .blog_slider.flat .blog_slider_header,.blog_slider.flat .blog_slider_header a.button.slider_prev,.blog_slider.flat .blog_slider_header a.button.slider_next,.blog_slider.flat .blog_slider_ul li .item_wrapper .desc hr{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 
 /* Shop slider ----------------------------------------------------------------------- */
-.shop_slider .blog_slider_header{position:relative;height:43px;margin-bottom:15px;overflow:hidden;padding-right:110px}
+.shop_slider .blog_slider_header{position:relative;height:80px;margin-bottom:15px;overflow:hidden;padding-right:110px}
 .shop_slider .blog_slider_header .title{margin:9px 0 0}
 .shop_slider .blog_slider_header a.slider_prev,
 .shop_slider .blog_slider_header a.slider_next{position:absolute;top:0;margin:0;font-size:13px;line-height:21px}
