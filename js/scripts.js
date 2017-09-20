@@ -1993,7 +1993,7 @@ function mfnSliderShop() {
 			circular: true,
 			responsive: true,
 			items: {
-				width: 600,
+				width: 690,
 				visible: {
 					min: 1,
 					max: 5
