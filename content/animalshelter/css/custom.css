@@ -99,8 +99,8 @@ img.tk.fitSlider {
   position: relative;
   top: 0;
   transition: top ease 0.3s;
-  transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+  /*transition: all 0.5s;
+    -webkit-transition: all 0.5s;*/
 
 }
 .floatr:hover {
@@ -130,6 +130,13 @@ img.tk.fitSlider {
   opacity: 1;
 }
 
+/*.floatr:hover  div:nth-last-child(2) {
+  visibility: visible;
+  opacity: 1;
+  background:rgba(0, 0, 0, 0.71);
+}*/
+
+
 .tk.tp-caption.Photography-Button,.Photography-Button
 {
 	background-color:rgba(0,0,0,0);
@@ -137,7 +144,8 @@ img.tk.fitSlider {
 	border-radius:30px 30px 30px 30px;
 	border-style:solid;
 	border-width:2px;
-	color:rgba(255,255,255,0.25);
+	/*color:rgba(255,255,255,0.25);*/
+  color: white;
 	font-family: 'Poiret One', cursive;
 	font-size:16px;
 	font-style:normal;
@@ -147,18 +155,45 @@ img.tk.fitSlider {
 	padding:13px 35px;
 	text-align:left;
 	text-decoration:none;
-  transition: all 0.3s
+  transition: all 0.3s;
 }
 
 .tk.tp-caption.Photography-Button:hover,.Photography-Button:hover
 {
 	background-color:rgba(0,0,0,0);
-	border-color:rgba(255,255,255,1.00);
+	border-color:rgb(255, 0, 128);
 	border-radius:30px 30px 30px 30px;
 	border-style:solid;
 	border-width:2px;
-	color:rgba(255,255,255,1.00);
+	/*color:rgba(255,255,255,1.00);*/
+  color:#ff5998;
+  font-size:17px;
+  font-weight:bolder;
 	text-decoration:none;
+}
+
+.tk_overlay_desc {
+
+  margin-top:60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 25px;
+  font-size: 18px;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Abel', sans-serif;*/
+  color:rgba(255,255,255,0.25);
+  transition: all 1.6s
+}
+
+.floatr:hover .tk_overlay_desc {
+
+  margin-top:60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 25px;
+  font-size: 18px;
+  color:white;
 }
 
 .tkList2 .desc {
