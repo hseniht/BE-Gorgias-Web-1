@@ -1,4 +1,4 @@
-
+/*
 .col-md-6-yasser {
   width: 100%;
   float: left;
@@ -17,9 +17,25 @@ max-height: 100%;
 
 div.round-box img.scale-with-grid {
   max-width: none !important
+}*/
+
+/*=========tk's font override==========*/
+
+#menu-main-menu.menu li a{
+  color: #cdb2b9;
+  font-family: 'Poiret One', cursive;
+  font-size: large;
+}
+
+#menu-main-menu.menu li.hover a{
+  color:white;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
 }
 
 
+
+/*======end of tl's font override=======*/
 
 .tks.shop_slider .shop_slider_ul li {
     float: left;
@@ -43,6 +59,12 @@ div.round-box img.scale-with-grid {
 .tkFont1 {
   color:white;
   font-family: 'Poiret One', cursive;
+}
+
+.tkFont2 {
+  color:white;
+  /*font-family: 'Roboto', cursive;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 /*test */
@@ -202,7 +224,7 @@ img.tk.fitSlider {
   line-height: 1.6;
   /*padding: 20px 35px 20px 20px;*/
   padding: 4% 10% 4% 4%;
-  height: 100px;
+  height: 135px; /*was 100px*/
   text-align: left;
 }
 
