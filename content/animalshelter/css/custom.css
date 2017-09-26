@@ -21,6 +21,18 @@ div.round-box img.scale-with-grid {
 
 /*=========tk's font override==========*/
 
+
+.tkFont1 {
+  color:white;
+  font-family: 'Poiret One', cursive;
+}
+
+.tkFont2 {
+  color:white;
+  /*font-family: 'Roboto', cursive;*/
+  font-family: 'Roboto' !important, sans-serif !important;
+}
+
 #menu-main-menu.menu li a{
   color: #cdb2b9;
   font-family: 'Poiret One', cursive;
@@ -29,13 +41,27 @@ div.round-box img.scale-with-grid {
 
 #menu-main-menu.menu li.hover a{
   color:white;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', sans-serif;
   font-weight: bold;
 }
 
 
+.author.tk_Walk_through_Font h5 {
 
-/*======end of tl's font override=======*/
+  font-family: 'Poiret One', sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+.bq_wrapper.tk_Walk_through_Font2 blockquote{
+
+  font-family: inherit;
+  font-style: inherit;
+}
+
+
+
+/*======end of tk's font override=======*/
 
 .tks.shop_slider .shop_slider_ul li {
     float: left;
@@ -50,22 +76,11 @@ div.round-box img.scale-with-grid {
     width: 100%;
 }
 
-
 .tks .column, .columns {
 	float: left;
 	margin: 0 0% 40px;
 }
 
-.tkFont1 {
-  color:white;
-  font-family: 'Poiret One', cursive;
-}
-
-.tkFont2 {
-  color:white;
-  /*font-family: 'Roboto', cursive;*/
-  font-family: 'Roboto', sans-serif;
-}
 
 /*test */
 .containertk {
@@ -120,7 +135,7 @@ img.tk.fitSlider {
 .floatr {
   position: relative;
   top: 0;
-  transition: top ease 0.3s;
+  transition: all ease 0.3s;
   /*transition: all 0.5s;
     -webkit-transition: all 0.5s;*/
 
@@ -132,10 +147,13 @@ img.tk.fitSlider {
 
 .full_card_overlay {
   position: absolute;
+  width: inherit;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  padding: 0 20px;
+  padding-top: 5px;
   background: rgba(41, 41, 41, 0.82);
   color: white;
   visibility: hidden;
@@ -150,6 +168,9 @@ img.tk.fitSlider {
 .floatr:hover .full_card_overlay {
   visibility: visible;
   opacity: 1;
+  /*padding: 0 20px;
+  padding-top: 5px;
+  background-color: rgba(255, 0, 128, 0.5)*/
 }
 
 /*.floatr:hover  div:nth-last-child(2) {
@@ -228,6 +249,18 @@ img.tk.fitSlider {
   text-align: left;
 }
 
+@media only screen and (max-width: 360px) {
+  .tkList2 .desc {
+    background-color: white;
+    /*padding: 10px 20px;*/
+    line-height: 1.6;
+    /*padding: 20px 35px 20px 20px;*/
+    padding: 4% 10% 4% 4%;
+    height: 125px; /*was 100px*/
+    text-align: left;
+  }
+}
+
 .tkList2 .desc h4 {
   margin-bottom: 5px;
   font-weight: bolder;
@@ -262,11 +295,11 @@ img.tk.fitSlider {
       }
 }*/
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
     .items_group.clearfix.tk-minify{
       zoom: 0.7!important;
     }
-}
+}*/
 
 @media only screen and (min-width: 400px) , screen and (max-width:767px) {
   img.tk.fit2 {
@@ -306,7 +339,7 @@ img.tk.fitSlider {
     /*width: 10em;*/
     width: 235px;
     /*height: 10em !important;*/
-    height: 285px !important;
+    height: 300px !important;
     -o-object-fit: contain;
     object-fit: cover;
     display: block;
