@@ -2100,7 +2100,7 @@ window.mfn_sliders = {
 	shop: 0,
 	slider: 6000,
 	// testimonials: 3000
-  testimonials: 3000
+  testimonials:0
 };
 jQuery(document).ready(function($) {
 	jQuery('.masonry.isotope,.isotope').isotope();
