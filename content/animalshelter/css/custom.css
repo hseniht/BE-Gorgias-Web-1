@@ -45,13 +45,21 @@ div.round-box img.scale-with-grid {
   font-weight: bold;
 }
 
+@media only screen and (max-width:479px){
+
+  .author.tk_Walk_through_Font h5 {
+    font-size: 20px !important;
+
+  }
+}
 
 .author.tk_Walk_through_Font h5 {
 
   font-family: 'Poiret One', sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   color: black;
 }
+
 
 .bq_wrapper.tk_Walk_through_Font2 blockquote{
 

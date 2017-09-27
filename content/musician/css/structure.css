@@ -6404,6 +6404,7 @@ body {
 	/* Filters */
 	#Filters .filters_buttons li {
 		margin-right: 10px;
+		margin-top:10px; /*tk*/
 	}
 	#Filters .filters_buttons li.label {
 		display: none;
