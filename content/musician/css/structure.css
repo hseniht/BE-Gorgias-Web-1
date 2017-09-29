@@ -1161,7 +1161,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 #Top_bar {
 	position: absolute;
 	left: 0;
-	top: 61px;
+	top: 25px;
 	width: 100%;
 	z-index: 30;
 }
