@@ -1646,7 +1646,8 @@ website:    http://www.themepunch.com
 }
 
 .hermes .tp-bullet:hover {
-	  background-color: rgba(0, 0, 0, 0.2);
+	  /*background-color: rgba(0, 0, 0, 0.2);*/
+    background-color: rgba(238, 238, 238, 0.4);
 }
 .hermes .tp-bullet:after {
   content: ' ';

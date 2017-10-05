@@ -82,11 +82,20 @@ div.round-box img.scale-with-grid {
 
 
 
+.largeTK {
+  font-size: 160%;
+  line-height: 150%;
+  font-family: 'Poiret One',cursive;
+  color: red !important;
+}
+
+
+
+
 /*======end of tk's font override=======*/
 
 .tks.shop_slider .shop_slider_ul li {
     float: left;
-
     list-style: none;
     background-color: white;
     margin-right: 5px;

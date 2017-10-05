@@ -1217,11 +1217,12 @@ a.button, a.tp-button {
 	color: #111619;
 }
 .button-stroke a.button, .button-stroke a.button .button_icon i, .button-stroke a.tp-button {
-	border-color: #98a2a4;
+	/*border-color: #98a2a4;*/
+	border-color: rgba(68, 68, 68, 0.5);
 	color: #111619;
 }
 .button-stroke a:hover.button, .button-stroke a:hover.tp-button {
-	background-color: #98a2a4 !important;
+	background-color: #333 !important;
 	color: #fff;
 }
 a.button_theme, a.tp-button.button_theme, button, input[type="submit"], input[type="reset"], input[type="button"] {
@@ -1279,7 +1280,7 @@ a.mfn-link-6:before {
 }
 #Header .top_bar_left, .header-classic #Top_bar, .header-plain #Top_bar, .header-stack #Top_bar, .header-split #Top_bar, .header-fixed #Top_bar, .header-below #Top_bar, #Header_creative, #Top_bar #menu, .sticky-tb-color #Top_bar.is-sticky {
 	/*background-color: #101417;*/
-	background-color: rgba(16, 20, 23, 0.95);
+	background-color: rgba(16, 20, 23, 0.90);
 }
 #Top_bar .wpml-languages a.active, #Top_bar .wpml-languages ul.wpml-lang-dropdown {
 	background-color: #101417;
