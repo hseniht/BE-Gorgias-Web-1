@@ -81,7 +81,6 @@ div.round-box img.scale-with-grid {
 }
 
 
-
 .largeTK {
   font-size: 160%;
   line-height: 150%;
@@ -90,9 +89,61 @@ div.round-box img.scale-with-grid {
 }
 
 
-
-
 /*======end of tk's font override=======*/
+
+/*=========tk's Top bar========*/
+
+.menu-panelTK {
+
+}
+
+#Top_bar .menu.tk>li.current_page_item>a {
+  border-bottom:4px solid #3a92a9;
+  /*background-color: rgba(0,0,0,0.5);*/
+}
+
+/*#Top_bar .menu.tk>li.current_page_item:hover>a {
+  border-bottom:4px solid blue;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#Top_bar .menu.tk>li.current_page_item.hover>a {
+  border-bottom:4px solid blue;
+  background-color: rgba(0,0,0,0.5);
+}*/
+
+/*#Top_bar .menu.tk>li.current_page_item>a {
+  border: 1px solid transparent;
+  border-color: transparent;
+}*/
+
+#Top_bar .menu.tk>li:after{
+  transition: all 0.1s linear 0s;
+    width: 100%;
+    display: block;
+    background-color: #3a92a9;
+    height: 0px;
+    content: '';
+    z-index: 125;
+}
+
+#Top_bar .menu.tk>li:hover:after {
+  height: 4px;
+}
+
+#Top_bar .menu.tk>li.active:after,.menu.tk> li:hover:after {
+    height: 4px;
+}
+
+#Top_bar .menu.tk>li.current_page_item:hover:after {
+  height: 0px;
+}
+
+#Top_bar .menu.tk>li.current_page_item.active:after,.menu.tk> li:hover:after {
+    height: 0px;
+}
+
+/*======end of tk's bar=======*/
 
 .tks.shop_slider .shop_slider_ul li {
     float: left;
