@@ -91,14 +91,16 @@ div.round-box img.scale-with-grid {
 
 /*======end of tk's font override=======*/
 
-/*=========tk's Top bar========*/
+/*=========tk's Top menu bar========*/
 
 .menu-panelTK {
 
 }
 
 #Top_bar .menu.tk>li.current_page_item>a {
-  border-bottom:4px solid #3a92a9;
+  border-bottom:4px solid #ff0088;
+  font-weight: bolder;
+color: white;
   /*background-color: rgba(0,0,0,0.5);*/
 }
 
@@ -121,7 +123,7 @@ div.round-box img.scale-with-grid {
   transition: all 0.1s linear 0s;
     width: 100%;
     display: block;
-    background-color: #3a92a9;
+    background-color: #ff0088;
     height: 0px;
     content: '';
     z-index: 125;
@@ -143,7 +145,41 @@ div.round-box img.scale-with-grid {
     height: 0px;
 }
 
-/*======end of tk's bar=======*/
+/*======end of tk's menu bar=======*/
+
+
+/*======== 2.0 tk's Rev slider ============*/
+
+@media screen and (min-width:401px) , screen and (max-width: 760px) {
+  .hermes.tp-bullets {
+    top: 55% !important; /*tks*/
+  }
+}
+
+@media only screen and (max-width:400px){
+  .hermes.tp-bullets {
+    top: 51% !important; /*tks*/
+  }
+}
+
+@media only screen and (width: 768px){
+.hermes.tp-bullets {
+    top: 73% !important;
+  }
+}
+
+@media only screen and (min-width:768px){
+  .hermes.tp-bullets {
+    top: 77% !important; /*tks*/
+  }
+}
+
+@media only screen and (width:768px){
+  .hermes.tp-bullets {
+    top: 74% !important; /*tks*/
+  }
+}
+/*======== 2.0 tk's Rev slider ============*/
 
 .tks.shop_slider .shop_slider_ul li {
     float: left;
@@ -664,4 +700,44 @@ img.tk.fitThumbs {
 
 .entry-title.larger{
   font-size: 36px;
+}
+
+
+
+/*============Section Why Gorgias====================*/
+
+.tkPanels {
+    background-color: white;
+    padding: 8%;
+    border-radius: 2px;
+}
+
+
+/*=======================Footer==========================*/
+
+.tooltipTK {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltipTK .tooltiptextTK {
+    visibility: hidden;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    line-height: 2;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 105%;
+}
+
+.tooltipTK:hover .tooltiptextTK {
+    visibility: visible;
 }
