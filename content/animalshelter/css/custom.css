@@ -39,11 +39,59 @@ div.round-box img.scale-with-grid {
   font-family: 'Roboto' !important, sans-serif !important;
 }
 
+.masonry.tiles .post-item .post-desc-wrapper .post-desc .post-title .entry-title.tkFontSecondaryName a {
+    color: gray;
+    font-size: 70%;
+}
+
 .tkFontBold {
   /*font-size: 18px;*/
   font-weight: 900;
   /*font-family: 'Roboto', sans-serif;*/
+  color: #ff0088;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
 }
+
+@media screen and (min-width:401px) , screen and (max-width: 760px) {
+  .post-title h2.entry-title {
+  	font-size: 20px;
+    line-height: 20px;
+
+  }
+}
+
+@media only screen and (max-width:400px){
+  .post-title h2.entry-title {
+  	font-size: 15px;
+
+  }
+}
+
+@media only screen and (width: 768px){
+  .post-title h2.entry-title {
+    font-size: 14px;
+
+  }
+}
+
+@media only screen and (min-width:768px){
+  .post-title h2.entry-title {
+  	font-size: 160%;
+    line-height: 20px;
+
+  }
+}
+
+@media only screen and (width:768px){
+  .hermes.tp-bullets {
+    top: 74% !important; /*tks*/
+    line-height: 16px;
+  }
+}
+
+
+
 #menu-main-menu.menu li a{
   color: #cdb2b9;
   font-family: 'Poiret One', cursive;

@@ -1995,7 +1995,8 @@ h6 {
 	border-top: 1px solid rgba(0, 0, 0, 0.06);
 }
 .post-title h2.entry-title {
-	font-size: 160%;
+	/*font-size: 160%;*/
+	font-size: 25px;
 	line-height: 150%;
 	font-family: 'Poiret One',cursive;
 }

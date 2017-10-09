@@ -12234,7 +12234,7 @@ dl > dt,.dark dl > dd,.dark .article_box .desc_wrapper p,.dark a.icon_bar,.dark 
 			.masonry.tiles .post-item .post-format-icon { position: absolute; z-index: 3; left: 25px; top: 25px; font-size: 35px; line-height: 35px; color: #fff; }
 
 			/* Line */
-			.masonry.tiles .post-item .post-desc-wrapper .post-desc .post-title:after { content: ""; display: block; height: 3px; margin-top: 20px; width: 0; transition: all 0.4s ease-out; }
+			.masonry.tiles .post-item .post-desc-wrapper .post-desc .post-title:after { content: ""; display: block; height: 3px; margin-top: 5px; width: 0; transition: all 0.4s ease-out; }
 			.masonry.tiles .post-item:hover .post-desc-wrapper .post-desc .post-title:after { width: 80%; }
 
 			/* Desc wrapper animation */
