@@ -1,25 +1,25 @@
-/*
-.col-md-6-yasser {
-  width: 100%;
-  float: left;
-  height: 78vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-}
+/*=====================================================
+Start of  Content
+
+1.0 - Tk's font overide
+
+2.0 - Tk's Top menu bar
+
+3.0 - Tk's Rev slider
+
+4.0 - Section card story
+
+5.0 - Section Masonry Grid
+
+6.0 - Section Why Gorgias
+
+7.0 - Footer
 
 
-div..col-md-6-yasser > img.yasser {
-max-height: 100%;
-}
+=========================================================*/
 
-div.round-box img.scale-with-grid {
-  max-width: none !important
-}*/
 
-/*=========tk's font override==========*/
+/*=======================1.0 Tk's font ======================*/
 
 .tkFontCelebName {
   font-family: 'Roboto', sans-serif;
@@ -141,9 +141,9 @@ div.round-box img.scale-with-grid {
 
 }
 
-/*======end of tk's font override=======*/
+/*======end of tk's font=======*/
 
-/*=========tk's Top menu bar========*/
+/*================2.0 - Tk's Top menu bar==================*/
 
 .menu-panelTK {
 
@@ -155,21 +155,6 @@ div.round-box img.scale-with-grid {
 color: white;
   /*background-color: rgba(0,0,0,0.5);*/
 }
-
-/*#Top_bar .menu.tk>li.current_page_item:hover>a {
-  border-bottom:4px solid blue;
-  background-color: rgba(0,0,0,0.5);
-}
-
-#Top_bar .menu.tk>li.current_page_item.hover>a {
-  border-bottom:4px solid blue;
-  background-color: rgba(0,0,0,0.5);
-}*/
-
-/*#Top_bar .menu.tk>li.current_page_item>a {
-  border: 1px solid transparent;
-  border-color: transparent;
-}*/
 
 #Top_bar .menu.tk>li:after{
   transition: all 0.1s linear 0s;
@@ -200,7 +185,7 @@ color: white;
 /*======end of tk's menu bar=======*/
 
 
-/*======== 2.0 tk's Rev slider ============*/
+/*===================== 3.0 Tk's Rev slider =========================*/
 
 @media screen and (min-width:401px) , screen and (max-width: 760px) {
   .hermes.tp-bullets {
@@ -231,7 +216,7 @@ color: white;
     top: 74% !important; /*tks*/
   }
 }
-/*======== 2.0 tk's Rev slider ============*/
+/*======== 3.0 tk's Rev slider part 2 ============*/
 
 .tks.shop_slider .shop_slider_ul li {
     float: left;
@@ -299,7 +284,9 @@ img.tk.fitSlider {
   /*margin: 10px auto 10px auto;*/
 }
 
-/*=========================Section card story 2===============================*/
+/*======== end of 3.0 Tk's Rev slider ==========*/
+
+/*========================= 4.0 Section card story ===============================*/
 
 .floatr {
   position: relative;
@@ -602,10 +589,10 @@ img.tk.fitThumbs {
   }
 }
 
-/*======================End of Section Card Story 2=======================*/
+/*==========End of Section Card Story 2===========*/
 
 
-/*================Section card story ===============================*/
+/*================ Section card story ===============================*/
 
 .tkList .desc {
   background-color: white;
@@ -745,7 +732,7 @@ img.tk.fitThumbs {
     z-index: 1 !important;
 }
 
-/*========================Section Masonry Grid=================================*/
+/*======================== 5.0 Section Masonry Grid========================*/
 .author-date.hidden{
   display: none;
 }
@@ -756,7 +743,7 @@ img.tk.fitThumbs {
 
 
 
-/*============Section Why Gorgias====================*/
+/*========================= 6.0 Section Why Gorgias=========================*/
 
 .tkPanels {
     background-color: white;
@@ -765,7 +752,7 @@ img.tk.fitThumbs {
 }
 
 
-/*=======================Footer==========================*/
+/*===========================7.0 Footer=====================================*/
 
 .tooltipTK {
     position: relative;
@@ -793,3 +780,33 @@ img.tk.fitThumbs {
 .tooltipTK:hover .tooltiptextTK {
     visibility: visible;
 }
+
+
+/*========End of footer=========*/
+
+/*=========== Basics ===========*/
+
+.parentImg {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  transition: all .7s;
+}
+
+.childImg {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  /*background-image: url();*/
+  background-position: center;
+  background-size: cover;
+  transition: all .7s;
+}
+
+.parentImg:hover .childImg,
+.parentImg:focus .childImg {
+  transform: scale(1.1);
+}
+
+
+/*==========End of Basics========*/
