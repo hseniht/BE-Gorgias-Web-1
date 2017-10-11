@@ -14,17 +14,6 @@ zeus - 20
 footer - 28
 
 
-
-header-wrapper - 30p (29)
-
-31
-
-32 
-
-
-29
-
-
 responsiveLevels: [1240, 1024, 778, 480],
 
 
@@ -43,7 +32,6 @@ height: auto;
 
 
 
-
 test images
 
 tkImages/Hyuna.jpg
@@ -56,3 +44,43 @@ tkImages/coverModel4.jpg
 
 tkImages/profile-4992.jpg
 
+
+vision , mission , 
+
+- also include app download
+
+
+===============
+Parallex Effect
+===============
+
+http://be.beantownthemes.com/html/index-band.html
+
+
+====
+Map
+====
+http://be.beantownthemes.com/html/index-media.html
+
+
+
+================
+Sample about
+================
+
+
+
+http://be.beantownthemes.com/html/index-snapshot.html
+
+http://be.beantownthemes.com/html/content/watch/support.html
+
+http://be.beantownthemes.com/html/content/minimal/contact.html
+
+http://be.beantownthemes.com/html/content/lifestyle/about-us.html -(Y)
+
+
+=============
+top menu bar
+=============
+
+http://be.beantownthemes.com/html/index-transfer.html

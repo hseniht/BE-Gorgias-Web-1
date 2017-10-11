@@ -136,6 +136,10 @@ div.round-box img.scale-with-grid {
   color: red !important;
 }
 
+.tkLinks .tkFont1 a:hover{
+  color: #ff0088 !important;
+
+}
 
 /*======end of tk's font override=======*/
 
