@@ -523,6 +523,11 @@ img.tk.fitSlider {
   }
 }
 
+/* for default image size */
+img.tk.fit3 {
+  display: block
+}
+
 img.tk.fitCards {
   /*border: 5px solid blue;*/
   /*width: 10em;*/
@@ -807,6 +812,17 @@ img.tk.fitThumbs {
 .parentImg:focus .childImg {
   transform: scale(1.1);
 }
+
+
+.tkWebCover {
+   background-repeat:no-repeat;
+   background-position:center center;
+   background-size:cover;
+   background-attachment:unset
+}
+
+
+
 
 
 /*==========End of Basics========*/

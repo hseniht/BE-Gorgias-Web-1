@@ -1234,12 +1234,18 @@ a.button_theme, a.tp-button.button_theme, button, input[type="submit"], input[ty
 	color: #fff;
 }
 .button-stroke a.button.button_theme:not(.action_button), .button-stroke a.button.button_theme:not(.action_button), .button-stroke a.button.button_theme .button_icon i, .button-stroke a.tp-button.button_theme, .button-stroke button, .button-stroke input[type="submit"], .button-stroke input[type="reset"], .button-stroke input[type="button"] {
-	border-color: #ff334b;
-	color: #ff334b !important;
+	border-color: #ff0088;
+	color: #FFF !important;
 }
 .button-stroke a.button.button_theme:hover, .button-stroke a.tp-button.button_theme:hover, .button-stroke button:hover, .button-stroke input[type="submit"]:hover, .button-stroke input[type="reset"]:hover, .button-stroke input[type="button"]:hover {
-	background-color: #ff334b !important;
-	color: #fff !important;
+	background-color: #ff0088 !important;
+	color: black !important;
+	border-color:#ff0088;
+}
+.button-stroke input[type="button"]:hover {
+    background-color: #ff0088 !important;
+    color: black !important;
+    border-color: #ff0088;
 }
 a.mfn-link {
 	color: #656B6F;
@@ -1533,7 +1539,8 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, select:focus, textarea:focus {
 	color: #111619;
 	background-color: rgba(230, 234, 235, 1) !important;
-	border-color: #111619;
+	/*border-color: #111619;*/
+	border-color: #ff0088;
 }
 .woocommerce span.onsale, .shop_slider .shop_slider_ul li .item_wrapper span.onsale {
 	border-top-color: #ff334b !important;
