@@ -1982,12 +1982,12 @@ h6 {
 		top: 40px;
 	}
 	.mobile-header-mini #Top_bar #logo {
-		height: 50px !important;
+		height: 30px !important;
 		line-height: 50px !important;
 		margin: 5px 0 !important;
 	}
 	.mobile-sticky #Top_bar.is-sticky #logo {
-		height: 50px !important;
+		height: 30px !important;
 		line-height: 50px !important;
 		margin: 5px 50px;
 	}

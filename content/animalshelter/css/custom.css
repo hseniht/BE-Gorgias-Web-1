@@ -44,7 +44,7 @@ Start of  Content
     font-size: 70%;
 }
 
-.tkFontBold {
+.tkFontBold-Theme {
   /*font-size: 18px;*/
   font-weight: 900;
   /*font-family: 'Roboto', sans-serif;*/
@@ -53,6 +53,11 @@ Start of  Content
   font-weight: bold;
 }
 
+.tkFontBold {
+  font-weight: bold;
+}
+
+/*media queries*/
 @media screen and (min-width:401px) , screen and (max-width: 760px) {
   .post-title h2.entry-title {
   	font-size: 20px;
@@ -822,7 +827,46 @@ img.tk.fitThumbs {
 }
 
 
-
-
-
 /*==========End of Basics========*/
+
+
+/*=========Privacy Policy========*/
+
+.tkAutoAlignCenter {
+    padding:0 9%;
+}
+
+@media only screen and (min-width:401px),screen and (max-width:760px){
+
+  .tkAutoAlignCenter {
+      padding:0 3%;
+      font-size: small;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .tkAutoAlignCenter {
+      padding:0 3%;
+      font-size: smaller;
+  }
+}
+
+@media only screen and (min-width:768px){
+  .tkAutoAlignCenter {
+    padding:0 15%;
+    font-size: inherit;
+
+  }
+}
+
+@media only screen and (width: 768px){
+  .tkAutoAlignCenter {
+      padding:0 10%;
+      font-size: inherit;
+
+  }
+}
+
+.tou-descriptions {
+  text-align: justify;
+}
