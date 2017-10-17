@@ -1432,7 +1432,8 @@ blockquote, blockquote a, blockquote a:hover {
 	background: rgba(255, 51, 75, 0.8);
 }
 .masonry.tiles .post-item .post-desc-wrapper .post-desc .post-title:after, .masonry.tiles .post-item.no-img, .masonry.tiles .post-item.format-quote, .blog-teaser li .desc-wrapper .desc .post-title:after, .blog-teaser li.no-img, .blog-teaser li.format-quote {
-	background: #ff334b;
+	/*background: #ff334b;*/
+	background: #ff0088;
 }
 .image_frame .image_wrapper .image_links a {
 	color: #fff;

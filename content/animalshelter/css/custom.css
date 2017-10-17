@@ -826,6 +826,14 @@ img.tk.fitThumbs {
    background-attachment:unset
 }
 
+ul.no-bullets
+{
+    margin-left: 0;
+}
+ul.no-bullets li
+{
+    list-style-type: none;
+}
 
 /*==========End of Basics========*/
 
