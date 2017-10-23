@@ -15,7 +15,7 @@ Start of  Content
 
 7.0 - Footer
 
-
+*hint - search "start" to return top to index quickly for reference :)
 =========================================================*/
 
 
@@ -790,6 +790,12 @@ img.tk.fitThumbs {
 .tooltipTK:hover .tooltiptextTK {
     visibility: visible;
 }
+
+#back_to_top .button_icon i {
+  color:gray !important;
+}
+
+
 
 
 /*========End of footer=========*/

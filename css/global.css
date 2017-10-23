@@ -11247,7 +11247,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 }
 
 /* Buttons | Stroke ------------------------------------------------------------------ */
-.button-stroke a.button:not(.action_button),.button-stroke:not(.header-plain) a.button.action_button,.button-stroke a.tp-button,.button-stroke button,.button-stroke input[type="submit"],.button-stroke input[type="reset"],.button-stroke input[type="button"]{border-width:2px;border-style:solid;-webkit-border-radius:3px;border-radius:3px;background-color:transparent!important;-webkit-box-shadow:inset 0 0 0 0;box-shadow:inset 0 0 0 0;background-image:none}
+.button-stroke a.button:not(.action_button),.button-stroke:not(.header-plain) a.button.action_button,.button-stroke a.tp-button,.button-stroke button,.button-stroke input[type="submit"],.button-stroke input[type="reset"],.button-stroke input[type="button"]{border-width:1px;border-style:solid;-webkit-border-radius:50%;border-radius:50%;background-color:transparent!important;-webkit-box-shadow:inset 0 0 0 0;box-shadow:inset 0 0 0 0;background-image:none}
 .button-stroke a.button:not(.action_button):after,.button-stroke:not(.header-plain) a.button.action_button:after,.button-stroke a.tp-button:after,.button-stroke button:after,.button-stroke input[type="submit"]:after,.button-stroke input[type="reset"]:after,.button-stroke input[type="button"]:after{display:none}
 
 .button-stroke a.button:not(.action_button),.button-stroke:not(.header-plain) a.button.action_button,.button-stroke a.tp-button,.button-stroke button,.button-stroke input[type="submit"],.button-stroke input[type="reset"],.button-stroke input[type="button"]{-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s;}
