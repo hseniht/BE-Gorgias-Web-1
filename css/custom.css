@@ -21,13 +21,6 @@ Start of  Content
 
 /*=======================1.0 Tk's font ======================*/
 
-.tkFontCelebName {
-  font-family: 'Roboto', sans-serif;
-  color: rgba(255, 255, 255, 0.5);
-  letter-spacing: 12px;
-  font-weight: 200;
-}
-
 .tkFont1 {
   color:white;
   font-family: 'Poiret One', cursive;
@@ -44,18 +37,19 @@ Start of  Content
     font-size: 70%;
 }
 
-.tkFontBold-Theme {
+.tkFont-Bold {
+  font-weight: bold;
+
+}
+
+
+.tkFont-Theme {
   /*font-size: 18px;*/
-  font-weight: 900;
   /*font-family: 'Roboto', sans-serif;*/
   color: #ff0088;
   font-family: 'Poiret One', cursive;
-  font-weight: bold;
 }
 
-.tkFontBold {
-  font-weight: bold;
-}
 
 /*media queries*/
 @media screen and (min-width:401px) , screen and (max-width: 760px) {
