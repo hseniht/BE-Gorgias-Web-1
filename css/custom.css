@@ -570,6 +570,43 @@ ul.no-bullets li
     list-style-type: none;
 }
 
+
+.tkSection-padding {
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.tkSection-paddingTop-only {
+  padding-top:50px;
+  padding-bottom:0px;
+}
+
+.tkSection-paddingBottom-only {
+  padding-top:0px;
+  padding-bottom:50px;
+}
+
+.tkSection-BackCover-Wallpaper{
+  background-color:#292929;
+  background-image:none;
+  background-repeat:no-repeat;
+  background-position:center bottom;
+}
+
+/*Page Website Theme Colors*/
+.bg-color-1{
+  background-color:#f5f5f5; //whitesmoke
+}
+.bg-color-2{
+  background-color:#808080; //gray
+}
+.bg-color-3{
+  background-color:#292929; //black-gray
+}
+.bg-color-4{
+  background-color:#ffffff !important; //white
+}
+
 /*==========End of Basics========*/
 
 
